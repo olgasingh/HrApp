@@ -1,0 +1,35 @@
+﻿.clsFilterOperation
+{
+    width:25px;
+    overflow:hidden;
+    background-color:ButtonFace;
+    }
+
+.clsFilterParent
+{
+	display: table;
+	width: 100%; 	
+}
+.clsFilterChild		
+{
+	display:table-cell;
+	width: 100%;
+	padding-left:0px;
+	padding-right:5px;
+	
+	}
+	
+.ui-icon.red { background-image: url(/Content/themes/base/images/ui-icons_cd0a0a_256x240.png); }
+.ui-icon.white { background-image: url(/Content/themes/base/images/ui-icons_ffffff_256x240.png); }
+.ui-icon.blue { background-image: url(/Content/themes/base/images/ui-icons_2e83ff_256x240.png); }
+.ui-icon.blue:hover {cursor:pointer;  background-color:darkgray;}
+.ui-icon.red:hover {cursor:pointer;  background-color:Highlight;}
+
+.oRowClass
+{
+    background-color:Aqua;
+    }
+.pRowClass
+{
+
+    }
